@@ -88,7 +88,7 @@ class Player():
                 elif int(score) == 180:
                     self.hundredeighties = self.hundredeighties+ 1
 
-            #score has been busted
+            #score has been bust
             elif scorecheck < 0:
                 print("Bust score")
                 self.bust = True
